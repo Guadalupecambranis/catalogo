@@ -8,7 +8,7 @@ import './main.css';
 class Main extends Component {
 
     state = {
-        title: "SISTEMA INTEGRAL DE LA INFORMACION DEL DEPARTAMENTO DE CIENCIAS ECONOMICO-ADMINISTRATIVAS",
+        title: "SISTEMA INTEGRAL DE LA INFORMACIÓN DEL DEPARTAMENTO DE CIENCIAS ECONÓMICO-ADMINISTRATIVAS",
         descripcion: "Esta página está diseñada para mostrar el perfil de los maestros del insituto tecnológico de Minatitlán"
     }
     render() {
@@ -16,8 +16,8 @@ class Main extends Component {
         let main = this.props.isLogged ? (
             <div>
                 <header className="header">
-                    <h3>Catálogo de docentes en el área
-                        económica administrativa</h3>
+                    <h3>Catálogo De Docentes En El área
+                        Económica Administrativa</h3>
                 </header>
                 <div className="home">
                     <div className="half">

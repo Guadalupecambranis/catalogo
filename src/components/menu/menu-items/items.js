@@ -11,7 +11,9 @@ let customName = (name) => {
 let item = (props) => {
     
     let items = props.items.map(
-        (value) =><li  key={value} className="link"><NavLink to={value} className="pointer">{customName(value)}</NavLink></li> 
+        (value) =><li  key={value} className="link">
+                    <NavLink to={value} className="pointer">{customName(value)}</NavLink>
+                  </li> 
     )
 
     let close_session = props.logged ? <li key="logout" className="link"><a onClick={props.logout}>Cerrar Sesión</a></li> : null  ;

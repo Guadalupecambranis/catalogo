@@ -1,6 +1,6 @@
 {
   "name": "catalogo-frontend",
-  "homepage": "https://Cambranis.github.io",
+  "homepage": "http://cambranis.s3-website-us-east-1.amazonaws.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

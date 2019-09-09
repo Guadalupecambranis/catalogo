@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Card} from 'react-bootstrap';
+import './mostrar.css';
 import Horario from '../../assets/horario.png';
 import Informe from '../../assets/asesoria.jpg';
 import Grafica from '../../assets/grafica.png';
@@ -32,13 +33,13 @@ class Mostrar extends Component {
 
             if(this.state.maestro.materias) {
                     for(let materia of this.state.maestro.materias) {
-                        materias.push(<li key={materia}>{materia}</li>)
+                        materias.push(<li key={materia} className="profile">{materia}</li>)
                     }
             } 
 
             if (this.state.maestro.asesorias) {
                 for(let asesoria of this.state.maestro.asesorias) {
-                    asesorias.push(<li key={asesoria}>{asesoria}</li>)
+                    asesorias.push(<li className="profile" key={asesoria}>{asesoria}</li>)
                 }
             }
 
@@ -56,7 +57,7 @@ class Mostrar extends Component {
                         }
                     }
                     archivos.push(
-                        <a href={archivo.url} download>
+                        <a href={archivo.url} target="_blank">
                             <img width="30px" src={img} alt={archivo.nombre0} />
                             <p>Descargar {archivo.nombre}</p>
                         </a>

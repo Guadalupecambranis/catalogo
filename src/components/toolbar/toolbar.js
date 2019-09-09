@@ -11,13 +11,13 @@ let toolbar = (props) => {
         <div>
                 <Row  className="toolbar">
                     <Col xs={4}>
-                        <img className="logo1" alt="logo1" src={Logo3} />
+                        <img className="logo1" alt="logo1" src={Logo2} />
                     </Col>
                     <Col xs={4}>
                         <img className="logo2" alt="logo3" src={Logo} />
                     </Col>
                     <Col xs={4}>
-                        <img className="logo3" alt="logo" src={Logo2} />
+                        <img className="logo3" alt="logo" src={Logo3} />
                     </Col>
                 </Row>
         </div>

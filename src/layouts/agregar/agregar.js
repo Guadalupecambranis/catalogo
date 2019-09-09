@@ -9,7 +9,7 @@ class Agregar extends Component {
         'nombre':'',
         'apellido_paterno':'',
         'apellido_materno':'',
-        'grado_escolaridad':'Ingeniería en sistemas computacionales'
+        'grado_escolaridad':'Licenciatura'
     }
 
     campos = ['nombre', 'apellido_paterno','apellido_materno'];
@@ -82,14 +82,9 @@ class Agregar extends Component {
                         <Form.Group controlId="exampleForm.ControlSelect1">
                             <Form.Label>Grado escolaridad</Form.Label>
                             <Form.Control value={this.state.grado_escolaridad} onChange={event => this.changeCarrera(event) } as="select">
-                                <option>Ingeniería en sistemas computacionales</option>
-                                <option>Ingeniería industrial</option>
-                                <option>Ingeniería química</option>
-                                <option>Ingeniería electromecánica</option>
-                                <option>Ingeniería electrónica</option>
-                                <option>Ingeniería ambiental</option>
-                                <option>Licenciatura en administración</option>
-                                <option>Ingeniería en gestión empresarial</option>
+                                <option>Licenciatura</option>
+                                <option>Maestria</option>
+                                <option>Doctorado</option>
                             </Form.Control>
                         </Form.Group>
                         <div className="buttons">

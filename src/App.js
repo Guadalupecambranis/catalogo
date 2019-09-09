@@ -397,7 +397,7 @@ class App extends Component  {
 
             <Backdrop show={this.state.open} clicked={this.openMenuHandler}></Backdrop>
 
-            <Navbar title="SISTEMA INTEGRAL DE LA INFORMACION DEL DEPARTAMENTO DE CIENCIAS ECONOMICO-ADMINISTRATIVAS" 
+            <Navbar title="SISTEMA INTEGRAL DE LA INFORMACIÓN DEL DEPARTAMENTO DE CIENCIAS ECONÓMICO-ADMINISTRATIVAS" 
              openMenu = {this.state.login ? this.openMenuHandler : ()=> {}}  logo={Logo}/>  
 
             <Toolbar />

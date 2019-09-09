@@ -51,7 +51,7 @@ class Consultar extends Component {
         
         this.setState({
             ...this.state,
-            buscador : valor,
+            buscador : valor.toUpperCase(),
             activo: true
         }, () => {
             this.aux = this.maestros.filter(

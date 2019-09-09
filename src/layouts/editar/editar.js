@@ -120,7 +120,7 @@ class Editar extends Component {
 
         let page =  (
             <div>
-                <header><h3>{this.state.maestro.grado_escolaridad+'. '+this.state.maestro.nombre + ' ' + 
+                <header><h3>{this.state.maestro.nombre + ' ' + 
                 this.state.maestro.apellido_paterno + ' ' + 
                 this.state.maestro.apellido_materno}</h3></header>
                 <div className="maestro-info">
@@ -131,7 +131,7 @@ class Editar extends Component {
                             onChange={(event) => this.changeMateria(event)}
                             type="text" placeholder="Materia" />
                             <Button onClick={(event) => this.addMateriaHandler(event)} 
-                            variant="primary" type="button">
+                            variant="primary" type="button" className="boton">
                                 Agregar
                             </Button>
                             <ul className="materias">
@@ -143,7 +143,7 @@ class Editar extends Component {
                             <Form.Control value={this.state.asesoria}
                             onChange={(event) => this.changeAsesoria(event)}
                             type="text" placeholder="Asesoria" />
-                            <Button onClick={(event) => this.addAsesoria(event)} 
+                            <Button className="boton" onClick={(event) => this.addAsesoria(event)} 
                             variant="primary" type="button">
                                 Agregar
                             </Button>

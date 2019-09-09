@@ -4,17 +4,17 @@
     display: flex;
     padding: 5px !important;
     background: white;
-    height: 8vh !important;
+    height: 12vh !important;
     border-bottom: 2px #010C5E solid;
   }
 
 
   .logo1 {
-    width: 100px !important;
+    width: 230px !important;
   }
   
   .logo2 {
-    width: 80px !important;
+    width: 110px !important;
   }
   
   .logo3{
